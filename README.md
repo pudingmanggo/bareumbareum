@@ -32,7 +32,7 @@ npm install node-red-dashboard
 
 src 폴더 안의 내용물들을 모두 `C:\Users\user\.node-red` 안에 넣어주세요.
 
-어떤 Function에 보면 있는 API키에 한국전자통신연구원(ETRI)에서 API키를 발급 받은 후 입력하시면 됩니다.
+http request 안의 Authorization 값을 한국전자통신연구원(ETRI)에서 API키를 발급 받은 후 입력하시면 됩니다.
  
 https://aiopen.etri.re.kr/guide/pronunciation
 
