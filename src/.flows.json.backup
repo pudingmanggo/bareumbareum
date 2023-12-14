@@ -1,0 +1,667 @@
+[
+    {
+        "id": "a3c7c5ee440a85e6",
+        "type": "tab",
+        "label": "플로우 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4bd69ff641886165",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "발음 교정",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "YYYY/MM/DD",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "ffebbca1fddc679b",
+        "type": "ui_tab",
+        "name": "바른발음",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2bc296e4909b1124",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "ffebbca1fddc679b",
+        "order": 1,
+        "disp": false,
+        "width": 13,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0d52b0dbcde3d054",
+        "type": "serial-port",
+        "serialport": "COM3",
+        "serialbaud": "57600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "6e5da37f1d3459b5",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "0f9a75c1b698b678",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 3,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "e95d45fb27a99c96",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "cdc6a3881bf2526e",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "89615015d5bf9466",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "09288f5479773bc9",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "ea33e81a7fe6596f",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "10abfdee53c0cf34",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e7f3d2c6a1ed14a8",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8282bbff8daf6138",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "ea39430d782eb281",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2ffe2dc55c3008b0",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "aacec9a7373aaad6",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 16,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "0708bcee014d97bf",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 17,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "492295953f828396",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 18,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4da0492ca425fb0e",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 20,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "84fbf9a68bea00cd",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 21,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b67240c33161a365",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 22,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c8fc7b8c4435f18c",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 23,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "ae2a29e60475f9dc",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 24,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "d1559984276cb5b1",
+        "type": "ui_spacer",
+        "z": "a3c7c5ee440a85e6",
+        "name": "spacer",
+        "group": "2bc296e4909b1124",
+        "order": 27,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "e0fe9b69e454add4",
+        "type": "ui_microphone",
+        "z": "a3c7c5ee440a85e6",
+        "name": "",
+        "group": "2bc296e4909b1124",
+        "order": 19,
+        "width": 3,
+        "height": 2,
+        "maxLength": "3",
+        "maxRecogLength": "3",
+        "timeslice": 0,
+        "press": "press",
+        "mode": "audio",
+        "interimResults": false,
+        "x": 110,
+        "y": 220,
+        "wires": [
+            [
+                "80a2a95c5c91513c"
+            ]
+        ]
+    },
+    {
+        "id": "7464fdb31cad6baf",
+        "type": "base64",
+        "z": "a3c7c5ee440a85e6",
+        "name": "",
+        "action": "",
+        "property": "payload",
+        "x": 480,
+        "y": 220,
+        "wires": [
+            [
+                "56be3308682cf5c4"
+            ]
+        ]
+    },
+    {
+        "id": "04e702b3aafd553a",
+        "type": "http request",
+        "z": "a3c7c5ee440a85e6",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://aiopen.etri.re.kr:8000/WiseASR/PronunciationKor",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "Authorization",
+                "valueType": "other",
+                "valueValue": ""
+            }
+        ],
+        "x": 850,
+        "y": 140,
+        "wires": [
+            [
+                "8dbe8869cfd74a59"
+            ]
+        ]
+    },
+    {
+        "id": "56be3308682cf5c4",
+        "type": "function",
+        "z": "a3c7c5ee440a85e6",
+        "name": "function 1",
+        "func": "var script = global.get(\"script\");\nvar audio = msg.payload;\nvar languageCode = \"korean\";\n\nvar requestJson = {\n    'argument': {\n        'language_code': languageCode,\n        'script': script,\n        'audio': audio\n    }\n};\n\nmsg.payload = requestJson;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 220,
+        "wires": [
+            [
+                "731912ae43799499",
+                "04e702b3aafd553a",
+                "4f638f56442778a3",
+                "04e9b5c175b32b2f"
+            ]
+        ]
+    },
+    {
+        "id": "c6079ba987c605bb",
+        "type": "debug",
+        "z": "a3c7c5ee440a85e6",
+        "name": "발음 결과 debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1220,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "8dbe8869cfd74a59",
+        "type": "json",
+        "z": "a3c7c5ee440a85e6",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 1010,
+        "y": 140,
+        "wires": [
+            [
+                "c6079ba987c605bb",
+                "49e4c0469bc7c032",
+                "aca747dc0ee267f7"
+            ]
+        ]
+    },
+    {
+        "id": "49e4c0469bc7c032",
+        "type": "ui_text",
+        "z": "a3c7c5ee440a85e6",
+        "group": "2bc296e4909b1124",
+        "order": 7,
+        "width": 3,
+        "height": 3,
+        "name": "",
+        "label": "발음결과",
+        "format": "{{msg.payload.return_object.score}}/5점",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 1180,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "80a2a95c5c91513c",
+        "type": "function",
+        "z": "a3c7c5ee440a85e6",
+        "name": "function 2",
+        "func": "var sampleRate = 48000\n\nfunction downsampleBuffer(buffer, rate) {\n                if (rate == sampleRate) {\n                    return buffer;\n                }\n                if (rate > sampleRate) {\n                    throw \"downsampling rate show be smaller than original sample rate\";\n                }\n                var sampleRateRatio = sampleRate / rate;\n                var newLength = Math.round(buffer.length / sampleRateRatio);\n                var result = new Float32Array(newLength);\n                var offsetResult = 0;\n                var offsetBuffer = 0;\n                while (offsetResult < result.length) {\n                    var nextOffsetBuffer = Math.round((offsetResult + 1) * sampleRateRatio);\n                     // Use average value of skipped samples\n                    var accum = 0, count = 0;\n                    for (var i = offsetBuffer; i < nextOffsetBuffer && i < buffer.length; i++) {\n                        accum += buffer[i];\n                        count++;\n                    }\n                    result[offsetResult] = accum / count;\n                    // Or you can simply get rid of the skipped samples:\n                    // result[offsetResult] = buffer[nextOffsetBuffer];\n                    offsetResult++;\n                    offsetBuffer = nextOffsetBuffer;\n                }\n                return result;\n            }\n\nfunction arrayToBuffer(arr, size) {\nconst buffer = Buffer.allocUnsafe(size * arr.length);\narr.map((val, index) => buffer.writeDoubleLE(val, size * index));\nreturn buffer;\n}\n\nvar downBuffer = downsampleBuffer(msg.payload, 16000);\nvar data = Buffer.from(downBuffer);\n\nmsg.payload = data;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 220,
+        "wires": [
+            [
+                "7464fdb31cad6baf"
+            ]
+        ]
+    },
+    {
+        "id": "04e9b5c175b32b2f",
+        "type": "ui_text",
+        "z": "a3c7c5ee440a85e6",
+        "d": true,
+        "group": "2bc296e4909b1124",
+        "order": 25,
+        "width": 1,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload.argument.script}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1150,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "4f638f56442778a3",
+        "type": "debug",
+        "z": "a3c7c5ee440a85e6",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "731912ae43799499",
+        "type": "debug",
+        "z": "a3c7c5ee440a85e6",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.argument.script",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "aca747dc0ee267f7",
+        "type": "ui_text",
+        "z": "a3c7c5ee440a85e6",
+        "d": true,
+        "group": "2bc296e4909b1124",
+        "order": 26,
+        "width": 1,
+        "height": 1,
+        "name": "",
+        "label": "인식결과",
+        "format": "{{msg.payload.return_object.recognized}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1200,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9da47cc7a6cb4ed4",
+        "type": "ui_text_input",
+        "z": "a3c7c5ee440a85e6",
+        "name": "",
+        "label": "스크립트를 입력하세요",
+        "tooltip": "",
+        "group": "2bc296e4909b1124",
+        "order": 14,
+        "width": 3,
+        "height": 2,
+        "passthru": false,
+        "mode": "text",
+        "delay": "0",
+        "topic": "payload",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 150,
+        "y": 320,
+        "wires": [
+            [
+                "2ff171349ba0831a"
+            ]
+        ]
+    },
+    {
+        "id": "2ff171349ba0831a",
+        "type": "function",
+        "z": "a3c7c5ee440a85e6",
+        "name": "function 3",
+        "func": "global.set(\"script\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d44afe5411ac9872",
+        "type": "ui_webcam",
+        "z": "a3c7c5ee440a85e6",
+        "name": "",
+        "group": "2bc296e4909b1124",
+        "order": 2,
+        "width": 6,
+        "height": 9,
+        "countdown": false,
+        "autoStart": false,
+        "hideCaptureButton": false,
+        "showImage": "2",
+        "mirror": true,
+        "format": "png",
+        "x": 100,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    }
+]
