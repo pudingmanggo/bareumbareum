@@ -1,4 +1,4 @@
-# bareunbareum
+# bareumbareum
 충북대학교 사범대학 부설 고등학교(CBNUH)  
 ## 인원 
 | 팀장 | 팀원 | 팀원 | 팀원 |
